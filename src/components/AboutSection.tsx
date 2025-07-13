@@ -18,18 +18,12 @@ export const AboutSection = () => {
             {/* Text content */}
             <div className="space-y-6">
               <p className="text-lg text-spice-brown/80 leading-relaxed">
-                Growing up in my grandmother's kitchen in Zamboanga City, I learned that the secret to unforgettable food isn't just in the recipe—it's in the love you pour into every jar.
+                What started as a personal craving turned into an obsession, crafting the perfect balance of heat, savoriness, and deep umami.
               </p>
               
               <p className="text-lg text-spice-brown/80 leading-relaxed">
-                After years of perfecting my grandmother's traditional chili sauce recipe, I'm finally ready to share this piece of my heritage with you. Each batch is handcrafted in small quantities, using only the finest garlic and carefully selected chilies.
+                After countless test batches and late-night kitchen experiments, this is the result—a chili oil that's punchy, rich, and packed with flavor. Handmade in small batches, each jar is a labor of love, using only the finest garlic and carefully selected chilies. It is not tradition—it is craft.
               </p>
-              
-              <blockquote className="border-l-4 border-chili-red pl-6 py-4 bg-golden-light rounded-r-lg">
-                <p className="text-lg font-medium text-spice-brown italic">
-                  "Food is how we show love, preserve memories, and build community."
-                </p>
-              </blockquote>
             </div>
             
             {/* Features */}
@@ -40,7 +34,7 @@ export const AboutSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-spice-brown mb-2">Made with Love</h3>
-                  <p className="text-spice-brown/70">Every jar is handcrafted in small batches using time-honored techniques passed down through generations.</p>
+                  <p className="text-spice-brown/70">Every jar is handcrafted in small batches using high-quality ingredients.</p>
                 </div>
               </div>
               
@@ -49,8 +43,8 @@ export const AboutSection = () => {
                   <Users className="w-6 h-6 text-spice-brown" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-spice-brown mb-2">Family Recipe</h3>
-                  <p className="text-spice-brown/70">A treasured family recipe from Zamboanga City, adapted for modern kitchens while preserving authentic flavors.</p>
+                  <h3 className="text-xl font-semibold text-spice-brown mb-2">Recipe Crafted</h3>
+                  <p className="text-spice-brown/70">A treasured recipe from Zamboanga City, adapted for modern kitchens while preserving authentic flavors.</p>
                 </div>
               </div>
               

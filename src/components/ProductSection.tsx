@@ -8,10 +8,10 @@ export const ProductSection = () => {
           {/* Section header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-spice-brown mb-6">
-              The <span className="text-chili-red">Sauce</span>
+              The <span className="text-chili-red">Chili Garlic Oil</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Our signature Chinese garlic chili sauce—where fire meets flavor in perfect harmony
+              Our signature chili garlic oil — where fire meets flavor in perfect harmony
             </p>
           </div>
           
@@ -19,11 +19,11 @@ export const ProductSection = () => {
             {/* Product description */}
             <div>
               <h3 className="text-3xl font-bold text-spice-brown mb-6">
-                Handcrafted Chinese Garlic Chili Sauce
+                Handcrafted Chili Garlic Oil
               </h3>
               
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                This isn't just another hot sauce. It's a carefully balanced symphony of roasted garlic, premium chilies, and aromatic spices that transforms every meal into an extraordinary experience.
+                This isn't just another chili garlic oil. It's a carefully balanced symphony of roasted garlic, premium chilies, and aromatic spices that transforms every meal into an extraordinary experience.
               </p>
               
               {/* Flavor profile */}
@@ -34,11 +34,11 @@ export const ProductSection = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Utensils className="w-5 h-5 text-golden" />
-                  <span className="text-spice-brown font-medium">Rich umami depth from fermented black beans</span>
+                  <span className="text-spice-brown font-medium">Savory, spicy, and packed with deep umami flavor</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Sparkles className="w-5 h-5 text-accent-foreground" />
-                  <span className="text-spice-brown font-medium">Fresh garlic bite that lingers pleasantly</span>
+                  <span className="text-spice-brown font-medium">Crispy garlic bite that lingers pleasantly</span>
                 </div>
               </div>
               
@@ -65,7 +65,7 @@ export const ProductSection = () => {
                   ))}
                 </div>
                 <blockquote className="text-lg font-medium text-spice-brown mb-4 leading-relaxed">
-                  "I've been searching for an authentic Chinese chili sauce like this for years. The balance of heat, garlic, and umami is absolutely perfect. It's become a staple in my kitchen!"
+                  "I've been searching for an authentic Chinese chili oil like this for years. The balance of heat, garlic, and umami is absolutely perfect. It's become a staple in my kitchen!"
                 </blockquote>
                 <footer className="text-sm text-muted-foreground">
                   — Jeffrey Y., Food Blogger
