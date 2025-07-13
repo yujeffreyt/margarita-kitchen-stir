@@ -68,21 +68,8 @@ export const ProductSection = () => {
                   "I've been searching for an authentic Chinese chili sauce like this for years. The balance of heat, garlic, and umami is absolutely perfect. It's become a staple in my kitchen!"
                 </blockquote>
                 <footer className="text-sm text-muted-foreground">
-                  — Sarah L., Food Blogger
+                  — Jeffrey Y., Food Blogger
                 </footer>
-              </div>
-              
-              <div className="bg-chili-red p-8 rounded-2xl text-center">
-                <h4 className="text-2xl font-bold text-primary-foreground mb-4">
-                  Limited First Edition
-                </h4>
-                <p className="text-primary-foreground/90 mb-4">
-                  Our inaugural batch will be limited to just 500 jars, each personally inspected and hand-labeled.
-                </p>
-                <div className="inline-flex items-center gap-2 bg-primary-foreground/20 backdrop-blur-sm px-4 py-2 rounded-full">
-                  <Sparkles className="w-4 h-4 text-golden" />
-                  <span className="text-sm font-medium text-primary-foreground">Collector's Edition</span>
-                </div>
               </div>
             </div>
           </div>

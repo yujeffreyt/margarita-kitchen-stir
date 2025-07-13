@@ -75,22 +75,6 @@ export const SignupSection = () => {
               </div>
             )}
           </div>
-          
-          {/* Benefits */}
-          <div className="grid md:grid-cols-3 gap-8 mt-16 text-center">
-            <div className="bg-primary-foreground/10 backdrop-blur-sm p-6 rounded-xl">
-              <h4 className="text-lg font-semibold text-primary-foreground mb-2">Early Access</h4>
-              <p className="text-primary-foreground/80 text-sm">Be among the first 100 to taste our inaugural batch</p>
-            </div>
-            <div className="bg-primary-foreground/10 backdrop-blur-sm p-6 rounded-xl">
-              <h4 className="text-lg font-semibold text-primary-foreground mb-2">Exclusive Recipes</h4>
-              <p className="text-primary-foreground/80 text-sm">Get Margarita's secret recipes and cooking tips</p>
-            </div>
-            <div className="bg-primary-foreground/10 backdrop-blur-sm p-6 rounded-xl">
-              <h4 className="text-lg font-semibold text-primary-foreground mb-2">Special Pricing</h4>
-              <p className="text-primary-foreground/80 text-sm">Subscriber-only discounts on future releases</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

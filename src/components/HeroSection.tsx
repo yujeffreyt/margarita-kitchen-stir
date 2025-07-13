@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-original-jar.jpg";
+import heroImage from "@/assets/hero-original-jar.png";
 import { ChefHat, Flame } from "lucide-react";
 
 export const HeroSection = () => {
@@ -14,8 +14,8 @@ export const HeroSection = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 lg:px-8">
-        <div className="max-w-3xl">
+      <div className="relative z-10 container mx-auto px-6 lg:px-8 flex justify-start items-center min-h-screen">
+        <div className="max-w-3xl text-left">
           {/* Brand badge */}
           <div className="inline-flex items-center gap-2 bg-warm-cream/90 backdrop-blur-sm px-4 py-2 rounded-full mb-6 animate-fade-in">
             <ChefHat className="w-4 h-4 text-chili-red" />
@@ -23,20 +23,20 @@ export const HeroSection = () => {
           </div>
           
           {/* Main heading */}
-          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight text-left">
             Margarita's
             <span className="block text-golden">Kitchen</span>
           </h1>
           
           {/* Tagline */}
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in-up leading-relaxed">
+          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in-up leading-relaxed text-left">
             Where authentic Chinese flavors meet 
             <span className="text-golden font-semibold"> homemade passion</span>. 
-            Introducing our signature garlic chili sauce.
+            Introducing our signature chili garlic oil.
           </p>
           
           {/* CTA Button */}
-          <div className="animate-fade-in-up">
+          <div className="animate-fade-in-up text-left">
             <Button 
               size="lg" 
               className="bg-chili-red hover:bg-chili-red-dark text-primary-foreground font-semibold px-8 py-4 text-lg rounded-full shadow-warm transition-all duration-300 hover:scale-105"

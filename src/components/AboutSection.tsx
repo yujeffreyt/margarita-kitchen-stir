@@ -8,7 +8,7 @@ export const AboutSection = () => {
           {/* Section header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-spice-brown mb-6">
-              Meet Margarita
+              About Margarita's Kitchen
             </h2>
             <div className="w-24 h-1 bg-chili-red mx-auto rounded-full"></div>
           </div>
@@ -18,7 +18,7 @@ export const AboutSection = () => {
             {/* Text content */}
             <div className="space-y-6">
               <p className="text-lg text-spice-brown/80 leading-relaxed">
-                Growing up in my grandmother's kitchen in Sichuan, I learned that the secret to unforgettable food isn't just in the recipe—it's in the love you pour into every jar.
+                Growing up in my grandmother's kitchen in Zamboanga City, I learned that the secret to unforgettable food isn't just in the recipe—it's in the love you pour into every jar.
               </p>
               
               <p className="text-lg text-spice-brown/80 leading-relaxed">
@@ -27,9 +27,8 @@ export const AboutSection = () => {
               
               <blockquote className="border-l-4 border-chili-red pl-6 py-4 bg-golden-light rounded-r-lg">
                 <p className="text-lg font-medium text-spice-brown italic">
-                  "Food is how we show love, preserve memories, and build community. This sauce carries three generations of tradition."
+                  "Food is how we show love, preserve memories, and build community."
                 </p>
-                <footer className="text-sm text-spice-brown/70 mt-2">— Margarita Chen</footer>
               </blockquote>
             </div>
             
@@ -51,7 +50,7 @@ export const AboutSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-spice-brown mb-2">Family Recipe</h3>
-                  <p className="text-spice-brown/70">A treasured family recipe from Sichuan province, adapted for modern kitchens while preserving authentic flavors.</p>
+                  <p className="text-spice-brown/70">A treasured family recipe from Zamboanga City, adapted for modern kitchens while preserving authentic flavors.</p>
                 </div>
               </div>
               

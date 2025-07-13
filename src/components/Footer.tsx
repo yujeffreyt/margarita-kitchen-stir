@@ -14,36 +14,20 @@ export const Footer = () => {
                 Bringing authentic Chinese flavors and family traditions to your table, one jar at a time.
               </p>
             </div>
-            
-            {/* Contact */}
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Get in Touch</h4>
-              <div className="space-y-3">
-                <div className="flex items-center gap-3">
-                  <Mail className="w-4 h-4 text-golden" />
-                  <a href="mailto:hello@margaritaskitchen.com" className="text-primary-foreground/80 hover:text-golden transition-colors">
-                    hello@margaritaskitchen.com
-                  </a>
-                </div>
-                <div className="flex items-center gap-3">
-                  <MapPin className="w-4 h-4 text-golden" />
-                  <span className="text-primary-foreground/80">San Francisco, CA</span>
-                </div>
-              </div>
-            </div>
-            
-            {/* Social */}
-            <div>
+            {/* Empty center column for spacing */}
+            <div></div>
+            {/* Social (right) */}
+            <div className="md:col-start-3 md:col-end-4 md:text-right">
               <h4 className="text-lg font-semibold mb-4">Follow Our Journey</h4>
               <div className="space-y-3">
                 <a 
-                  href="https://instagram.com/margaritaskitchen" 
-                  className="flex items-center gap-3 text-primary-foreground/80 hover:text-golden transition-colors"
+                  href="https://www.instagram.com/marga.ritakitchen/" 
+                  className="flex md:justify-end items-center gap-3 text-primary-foreground/80 hover:text-golden transition-colors"
                 >
                   <Instagram className="w-4 h-4" />
-                  @margaritaskitchen
+                  @marga.ritakitchen
                 </a>
-                <p className="text-sm text-primary-foreground/60">
+                <p className="text-sm text-primary-foreground/60 md:text-right">
                   Behind-the-scenes moments, recipe inspiration, and more!
                 </p>
               </div>
@@ -56,10 +40,9 @@ export const Footer = () => {
               <div className="flex items-center gap-2 text-primary-foreground/80">
                 <span>Made with</span>
                 <Heart className="w-4 h-4 text-chili-red fill-current" />
-                <span>in San Francisco</span>
               </div>
               <div className="text-sm text-primary-foreground/60">
-                © 2024 Margarita's Kitchen. All rights reserved.
+                © 2025 Margarita's Kitchen. All rights reserved.
               </div>
             </div>
           </div>
