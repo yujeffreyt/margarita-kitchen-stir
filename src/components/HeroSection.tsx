@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-chili-sauce.jpg";
+import heroImage from "@/assets/hero-chili-sauce-kitchen.jpg";
 import { ChefHat, Flame } from "lucide-react";
 
 export const HeroSection = () => {
