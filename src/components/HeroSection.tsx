@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-original-jar.png";
+import heroImage from "@/assets/chilioil.png";
 import { ChefHat, Flame } from "lucide-react";
 
 export const HeroSection = () => {
@@ -7,8 +7,11 @@ export const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with gradient overlay */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        className="absolute inset-0 bg-cover bg-no-repeat"
+        style={{ 
+          backgroundImage: `url(${heroImage})`,
+          backgroundPosition: "center 60%" // Moves image down
+        }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-spice-brown/80 via-chili-red/60 to-transparent"></div>
       </div>
@@ -31,7 +34,7 @@ export const HeroSection = () => {
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in-up leading-relaxed text-left">
             Where authentic Chinese flavors meet 
-            <span className="text-golden font-semibold"> homemade passion</span>. 
+            <span className="text-white font-semibold"> homemade passion</span>. 
             Introducing our signature chili garlic oil.
           </p>
           
